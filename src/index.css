@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-3xl font-bold text-stone-700; 
+    }
+    h2 {
+        @apply text-xl font-bold;
+    }
+    h3 {
+      @apply font-semibold
+    }
+    h4 {
+      @apply font-medium
+    }
+  
+    p {
+      @apply text-base leading-relaxed; 
+    }
+  
+    span {
+      @apply text-sm font-medium py-1 px-3 rounded-md bg-light_100; 
+    }
+  
+    a {
+      @apply text-primary_blue underline;
+    }
+  
+    body {
+      @apply font-sans text-left text-almost_black;
+    }
+
+    
+
+    li {
+      @apply bg-light_50/50 rounded-sm p-4
+    }
+
+    img {
+      @apply max-w-md
+    }
+  }
