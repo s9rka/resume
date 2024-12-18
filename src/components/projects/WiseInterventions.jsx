@@ -5,7 +5,10 @@ const WiseInterventions = () => {
     <div>
       <div className="flex justify-between items-center">
         <h3>
-          <a href="https://www.err.ee/1063444/soren-pruul-tolgendusi-mudides-muutusteni">
+          <a
+            href="https://www.err.ee/1063444/soren-pruul-tolgendusi-mudides-muutusteni"
+            target="_blank"
+          >
             Article on Wise Interventions (in Estonian)
           </a>
         </h3>

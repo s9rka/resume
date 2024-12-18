@@ -16,14 +16,12 @@ const PromptingPresentation = () => {
       </div>
       <div className="mt-4 border py-2 px-3 rounded-md w-3/4">
         <p className="">
-          Presentation for Jõhvi
-          Gümnaasium on the context and best practices of LLMs.
-          Utilized{" "}
+          Presentation for Jõhvi Gümnaasium on the context and best practices of
+          LLMs. Utilized{" "}
           <a href="https://revealjs.com/" target="_blank">
             reveal.js
           </a>{" "}
-          for creating the presentation. A powerful tool for developers for
-          making presentations. Practically no limits on what you can do.
+          for creating the presentation. A powerful tool for developers.
         </p>
         <div className="flex flex-col w-fit gap-1 pt-2">
           <a

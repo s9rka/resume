@@ -18,7 +18,7 @@ export const Education = () => {
             <p className="text-stone-600">2017 - 2020</p>
           </div>
           <p>Psychology Major (Social sciences)</p>
-          <a href="https://dspace.ut.ee/server/api/core/bitstreams/bee25d41-3118-48d7-886d-08aa7e59cea5/content">
+          <a href="https://dspace.ut.ee/server/api/core/bitstreams/bee25d41-3118-48d7-886d-08aa7e59cea5/content" target="_blank">
             Final Thesis
           </a>
         </li>

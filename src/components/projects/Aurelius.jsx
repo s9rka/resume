@@ -5,7 +5,7 @@ const Aurelius = () => {
     <div>
       <div className="flex justify-between items-center">
         <h3>
-          <a href="https://www.aurelius.ee/">Aurelius legal services website</a>
+          <a href="https://www.aurelius.ee/" target="_blank">Aurelius legal services website</a>
         </h3>
         <p className="text-stone-600">2022</p>
       </div>
