@@ -1,1 +1,3 @@
-[View here](s9rka.github.io/resume/)
+Link:
+s9rka.github.io/resume/
+
