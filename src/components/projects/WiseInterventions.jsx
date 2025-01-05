@@ -15,7 +15,7 @@ const WiseInterventions = () => {
         <p className="text-stone-600">2020</p>
       </div>
 
-      <div className="mt-4 border py-2 px-3 rounded-md w-3/4">
+      <div className="mt-4 py-2 px-3 rounded-md w-3/4">
         <p>
           A cousin to 'nudging,' wise interventions target core beliefs to
           foster lasting changes in behavior and well-being. Small yet crucial

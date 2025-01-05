@@ -11,16 +11,16 @@ const PowerBIDashboard = () => {
         <p className="text-stone-600">2024</p>
       </div>
 
-      <div className="mt-4 border py-2 px-3 rounded-md w-3/4">
+      <div className="mt-4 py-2 px-3 rounded-md w-3/4">
         <p className="">
           During the internship in Grow Solutions, we launched a business
           intelligence product for business owners and executives.
         </p>
 
         <p className="">
-          My contribution was to design and build the overall layout and global
-          styling. While Power BI has limitations in design flexibility, its
-          power and accessibility make it a strong and practical choice for data
+          My contribution was to design and build the overall layout. While
+          Power BI has limitations in design flexibility, its power and
+          accessibility make it a strong and practical choice for data
           visualization.
         </p>
       </div>

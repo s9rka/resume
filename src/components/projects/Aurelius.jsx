@@ -10,7 +10,7 @@ const Aurelius = () => {
         <p className="text-stone-600">2022</p>
       </div>
 
-      <div className="mt-4 border py-2 px-3 rounded-md w-3/4">
+      <div className="mt-4 py-2 px-3 rounded-md w-3/4">
         <p>My first full-stack project, made with React.</p>
       </div>
       <div className="flex gap-2 pt-3">

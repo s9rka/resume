@@ -37,7 +37,7 @@
     
 
     li {
-      @apply bg-light_50/50 rounded-sm p-4
+      @apply bg-light_50/10 rounded-md border p-4
     }
 
     img {
