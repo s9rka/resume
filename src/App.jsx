@@ -1,19 +1,16 @@
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
-import WorkExperience from "./components/experience/WorkExperience";
-import Education from "./components/education/Education";
-import Projects from "./components/projects/Projects";
-import Layout from "./layout/Layout";
-import AdditionalEd from "./components/education/AdditionalEd";
+import "./i18n";
+import CV from "./layout/CV";
+
 
 function App() {
   return (
     <div>
-      <Layout>
-        <WorkExperience />
-        <Education />
-        <AdditionalEd />
-        <Projects />
-      </Layout>
+      <Routes>
+      <Route path="/" element={<Navigate to="/en" replace />} />
+        <Route path="/:lang" element={<CV/>} />
+      </Routes>
     </div>
   );
 }

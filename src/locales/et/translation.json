@@ -1,0 +1,45 @@
+{
+    "Work Experience": "Töökogemus",
+    "Product Design Intern": "Tootedisaini praktikant",
+    "Restaurant Manager": "Restorani juhataja",
+    "Restaurant Kaerajaan": "Restoran Kaerajaan",
+    "Responsible for running a fast-paced restaurant in Tallinn Town Hall Square": "Kiireloomulise Raekoja platsi restorani juhtimine",
+    "Software Engineer": "Tarkvaraarendaja",
+
+    "now": "tänaseni",
+    "Oct": "okt",
+    "Nov": "nov",
+    "Jan": "jaan",
+    "Dec": "dets",
+    "Feb": "veebr",
+
+    "Education": "Haridus",
+    "Skills for becoming Full Stack Developer": "Full Stack arendaja oskuste omandamine",
+    "University of Tartu": "Tartu Ülikool",
+    "Psychology Major (Social sciences)": "Psühholoogia Bakalaureus (Sotsiaalteadused)",
+    "Final Thesis": "Lõputöö",
+    "Tallinn French School": "Tallinna Prantsuse Lütseum",
+    "Primary and Secondary school": "Põhi-ja keskharidus",
+
+    "Additional Courses": "Lisakursused",
+    "Completed UX Estonia UX Design Course": "UX Estonia UX disaini kursus",
+    "Certificate": "Tunnistus",
+    "Completed Javascript & React - Zero to Specialist Intensive Course": "Javascript & React - nullist spetsialistiks intensiivkursus",
+
+    "Projects": "Projektid",
+    "Grow Finance Power BI dashboard": "Grow ärianalüütika platvorm",
+    "During the internship in Grow Solutions, we launched a business intelligence product for business owners and executives.": "Grow Solutions praktika raames arendasime välja Power BI-l tugineva ärianalüütika platvormi.",
+    "My contribution was to design and build the overall layout. While Power BI has limitations in design flexibility, its power and accessibility make it a strong and practical choice for data visualization.": "Minu töö oli platvorm disainida ja kokku panna.",
+
+    "LLM prompting best practices": "Kuidas suhelda tehisaruga?",
+    "Presentation for Jõhvi Gümnaasium on the context and best practices of LLMs. Utilized": "Esitlus Jõhvi Gümnaasiumi õpetajatele ja abiturientidele keelemudelite kasutamise parimate tavade kohta. Kasutasin",
+    "for creating the presentation. A powerful presentation tool for developers.": "esitluse loomiseks. Suurepärane esitluste tegemise tööriist arendajatele.",
+    "Article about the event": "Ilmunud artikkel ürituse kohta",
+
+    "Aurelius legal services website": "Aurelius õigusabi koduleht",
+    "My first full-stack project, made with React.": "Ehitatud Reactiga, esimene ametlikult lansseeritud veebiprojekt.",
+    "Article on Wise Interventions (in Estonian)": "Artikkel teemal 'Wise Interventions'",
+    "A cousin to 'nudging,' wise interventions target core beliefs to foster lasting changes in behavior and well-being. Small yet crucial shifts in perspective hold the potential for profound, cumulative impact.": "'Müksamise' sugulane, 'Wise Interventions' on praktiline psühholoogiliste muutuste esile kutsumise raamistik.",
+    "Psychology": "Psühholoogia",
+    "Behavioural Economics": "Käitumisökonoomika"
+}
