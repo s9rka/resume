@@ -6,7 +6,7 @@
 
 @layer base {
     h1 {
-      @apply text-3xl font-bold text-stone-700; 
+      @apply text-2xl font-bold text-stone-700; 
     }
     h2 {
         @apply text-xl font-bold;
@@ -27,17 +27,26 @@
     }
   
     a {
-      @apply text-primary_blue underline;
+      @apply text-blue-500  hover:bg-stone-100;
     }
   
     body {
       @apply font-sans text-left text-almost_black;
     }
 
+    strong {
+      @apply font-semibold
+    }
+
     
 
     li {
       @apply bg-light_50/10 rounded-md border p-4
+    }
+
+    .bullet {
+      @apply p-0 border-none list-disc
+      
     }
 
     img {

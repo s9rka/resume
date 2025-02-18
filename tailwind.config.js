@@ -15,6 +15,9 @@ export default {
         light_100: "#e0e6f9",
         primary_blue: "#404ecf",
         almost_black: "#101129"
+      },
+      boxShadow: {
+        'sidebar': 'inset 0px 2px 4px 0px rgba(0, 0, 0, 0.06)'
       }
     },
   },

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "./Layout";
-import WorkExperience from "../components/experience/WorkExperience";
+import Experience from "../components/experience/Experience";
 import Education from "../components/education/Education";
 import AdditionalEd from "../components/education/AdditionalEd";
 import Projects from "../components/projects/Projects";
@@ -20,10 +20,8 @@ const CV = () => {
   
   return (
     <Layout>
-      <WorkExperience />
+      <Experience />
       <Education />
-      <AdditionalEd />
-      <Projects />
     </Layout>
   );
 };
