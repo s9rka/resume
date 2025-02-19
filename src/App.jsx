@@ -1,15 +1,13 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import "./i18n";
-import CV from "./layout/CV";
-
+import CV from "./CV";
 
 function App() {
   return (
     <div>
       <Routes>
-      <Route path="/" element={<Navigate to="/en" replace />} />
-        <Route path="/:lang" element={<CV/>} />
+        <Route path="/" element={<CV />} />
       </Routes>
     </div>
   );

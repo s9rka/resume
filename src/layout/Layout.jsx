@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import watermark from "../assets/watermark.svg";
-import SideBarContent from "../components/SideBarContent";
+import SideBar from "./SideBar";
 
 const Layout = ({ children }) => {
   return (
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <main className="flex-1 order-1 lg:order-1">{children}</main>
 
         <aside className="w-full lg:w-80 h-fit order-2 lg:order-2 shadow-sidebar rounded-lg p-4 pb">
-          <SideBarContent/>
+          <SideBar/>
         </aside>
       </div>
 
