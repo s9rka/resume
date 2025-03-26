@@ -11,11 +11,12 @@ const WorkExperience = () => {
       <ul className="p-2 flex flex-col gap-2">
         <li>
           <div className="flex justify-between pb-2">
-            <div className="flex gap-2 items-center ">
-              <h3>{t("Software Engineer")}</h3> |{" "}
-              <p className="">{t("Qbit Software Solutions")}</p> 
+            <div className="flex gap-2 md:items-center flex-col md:flex-row  ">
+              <h3>{t("Software Engineer")}</h3>{" "}
+              <p className="hidden md:block">|</p>
+              <p className="">{t("Qbit Software Solutions")}</p>
             </div>
-            <p className="text-stone-600">
+            <p className="text-stone-600 text-right">
               2025 {t("Feb")} - {t("now")}
             </p>
           </div>
@@ -35,10 +36,11 @@ const WorkExperience = () => {
         </li>
         <li>
           <div className="flex justify-between pb-2">
-            <div className="flex gap-2 items-center ">
-              <h3>{t("Product Design Intern")}</h3> | <p>Grow Solutions</p>
+            <div className="flex gap-2 md:items-center flex-col md:flex-row  ">
+              <h3>{t("Product Design Intern")}</h3>{" "}
+              <p className="hidden md:block">|</p> <p>Grow Solutions</p>
             </div>
-            <p className="text-stone-600">
+            <p className="text-stone-600 text-right">
               2023 {t("Nov")} - 2024 {t("Jan")}
             </p>
           </div>
@@ -62,11 +64,12 @@ const WorkExperience = () => {
         </li>
         <li>
           <div className="flex justify-between pb-2">
-            <div className="flex gap-2 items-center ">
-              <h3>{t("Restaurant Manager")}</h3> |
+            <div className="flex gap-2 md:items-center flex-col md:flex-row  ">
+              <h3>{t("Restaurant Manager")}</h3>{" "}
+              <p className="hidden md:block">|</p>
               <p className="">{t("Restaurant Kaerajaan")}</p>
             </div>
-            <p className="text-stone-600">
+            <p className="text-stone-600 text-right">
               2022 {t("Dec")} - 2023 {t("Oct")}
             </p>
           </div>
@@ -85,7 +88,6 @@ const WorkExperience = () => {
               {t("Created marketing materials and job listings.")}
             </li>
           </ul>
-          
         </li>
       </ul>
     </section>

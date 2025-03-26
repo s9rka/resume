@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 export const Education = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   return (
     <section className="py-2 flex flex-col">
       <h1 className="pt-2">{t("Education")}</h1>
@@ -10,7 +10,7 @@ export const Education = () => {
         <li>
           <div className="flex justify-between pb-2">
             <h3>Kood/Jõhvi</h3>
-            <p className="text-stone-600">2024 - {t("now")}</p>
+            <p className="text-stone-600 text-right">2024 - {t("now")}</p>
           </div>
           <ul className="pl-4">
             <li className="bullet">
@@ -26,10 +26,12 @@ export const Education = () => {
         </li>
         <li>
           <div className="flex justify-between">
-            <div className="flex gap-2 items-center pb-2">
-              <h3>{t("University of Tartu")}</h3> |<p>{t("Psychology")}</p>
+            <div className="pb-2 flex gap-2 md:items-center flex-col md:flex-row  ">
+              <h3>{t("University of Tartu")}</h3>{" "}
+              <p className="hidden md:block">|</p>
+              <p>{t("Psychology")}</p>
             </div>
-            <p className="text-stone-600">2017 - 2020</p>
+            <p className="text-stone-600 text-right">2017 - 2020</p>
           </div>
           <ul className="pl-4">
             <li className="bullet">
@@ -59,7 +61,7 @@ export const Education = () => {
         <li>
           <div className="flex justify-between">
             <h3>{t("Tallinn French School")}</h3>
-            <p className="text-stone-600">2005 - 2017</p>
+            <p className="text-stone-600 text-right">2005 - 2017</p>
           </div>
           <p>{t("Primary and Secondary school")}</p>
         </li>
