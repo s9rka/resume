@@ -3,13 +3,13 @@ import profilepic from "../assets/profile.png";
 
 const NavBar = () => {
   return (
-    <div className="py-4 flex flex-row gap-2 items-center justify-start">
+    <div className="py-4 flex flex-wrap flex-col gap-2 items-start justify-start md:justify-between">
       <div className="flex items-center gap-2">
         <img src={profilepic} className="h-12" />
-        <h1>Sören Pruul</h1>•
+        <h1>Sören Pruul</h1>
       </div>
 
-      <div className="py-1 flex flex-row items-center justify-center gap-2">
+      <div className="py-1 flex flex-wrap flex-row md:items-center md:justify-center gap-2">
         <p>pruulsoren@gmail.com</p>•
         <a href="github.com/s9rka" target="_blank">
           Github

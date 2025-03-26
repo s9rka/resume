@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 export const Education = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation(); 
   return (
     <section className="py-2 flex flex-col">
       <h1 className="pt-2">{t("Education")}</h1>
@@ -14,13 +14,13 @@ export const Education = () => {
           </div>
           <ul className="pl-4">
             <li className="bullet">
-              Developing multiple API servers and backend tools in Go.
+              {t("Developing multiple API servers and backend tools in Go.")}
             </li>{" "}
             <li className="bullet">
-              Building client applications with Typescript.
+              {t("Building client applications with Typescript.")}
             </li>
             <li className="bullet">
-              Collaborating in teams on large-scale development projects.
+              {t("Collaborating in teams on large-scale development projects.")}
             </li>
           </ul>
         </li>
@@ -33,17 +33,17 @@ export const Education = () => {
           </div>
           <ul className="pl-4">
             <li className="bullet">
-              Focused on cognitive psychology and behavioural economics.
+              {t("Focused on cognitive psychology and behavioural economics.")}
             </li>
             <li className="bullet">
-              Wrote an{" "}
+              {t("Wrote an")}{" "}
               <a
                 href="https://www.err.ee/1063444/soren-pruul-tolgendusi-mudides-muutusteni"
                 target="_blank"
               >
                 {t("article on Wise Interventions (in Estonian)")}
               </a>{" "}
-              for general public.
+              {t("for general public.")}
             </li>
             <li className="bullet">
               <a
@@ -52,7 +52,7 @@ export const Education = () => {
               >
                 {t("Final Thesis")}
               </a>{" "}
-              investigates human decision-making through eye-tracking.
+              {t("investigates human decision-making through eye-tracking.")}
             </li>
           </ul>
         </li>
