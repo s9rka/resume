@@ -17,7 +17,7 @@ export default {
         almost_black: "#101129"
       },
       boxShadow: {
-        'sidebar': 'inset 0px 2px 4px 0px rgba(0, 0, 0, 0.06)'
+        'sidebar': 'inset 0px 2px 8px .5px rgba(54, 46, 73, 0.1)'
       }
     },
   },

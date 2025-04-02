@@ -5,34 +5,34 @@ const SideBarContent = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
-      <section className="py-">
-        <h3 className="text-center underline pb-1">{t("Tech Stack")}</h3>
-        <strong>{t("Programming languages")}:</strong>
-        <p>Golang, Typescript, Python</p>
+    <div className="space-y-8 py-2">
+      <section className="">
+        <h3 className="pb-1 font-bold text-stone-700">{t("Tech Stack")}</h3>
+        <p className="underline">{t("Programming languages")}</p>
+        <p className="">Golang, Typescript, Python</p>
 
-        <strong>{t("Frontend development")}:</strong>
-        <p>React, Vite, React Query, TailwindCSS, shadcn/ui</p>
+        <p className="underline">{t("Frontend development")}</p>
+        <p className="">React, Vite, TanStack, TailwindCSS, shadcn/ui, SCSS</p>
 
-        <strong>{t("Databases")}:</strong>
-        <p>SQLite, postgreSQL, Firebase</p>
+        <p className="underline">{t("Databases")}</p>
+        <p className="">SQLite, postgreSQL, Firebase</p>
 
-        <strong>{t("Workflow tools")}:</strong>
-        <p>Git, Docker, Jira, Postman</p>
+        <p className="underline">{t("Workflow tools")}</p>
+        <p className="">Git, Docker, Jira, Postman</p>
       </section>
 
-      <section className="py-2">
-        <h3 className="text-center underline pb-1">{t("Languages")}</h3>
+      <section className="">
+        <h3 className="pb-1 font-bold text-stone-700">{t("Languages")}</h3>
         <p>{t("English")} (C1)</p>
         <p>{t("Estonian")} (C2)</p>
         <p>{t("Russian")} (B1)</p>
         <p>{t("French")} (B1)</p>
       </section>
 
-      <section className="py-2 flex flex-col gap-1">
-        <h3 className="text-center underline pb-1">{t("Other")}</h3>
-        <a href="https://aurelius.ee" target="_blank">
-          Aurelius.ee ({t("freelance web project")})
+      <section className="flex flex-col ">
+        <h3 className="pb-1 font-bold text-stone-700">{t("Other")}</h3>
+        <a className="py-0 my-0" href="https://aurelius.ee" target="_blank">
+          Aurelius.ee ({t("first web project with React")}) (2022)
         </a>
         <a
           href="https://drive.google.com/file/d/1Y7B7tqQmATf0uZpyBqW9X7heWnm8ER8e/view"

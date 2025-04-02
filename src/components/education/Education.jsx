@@ -22,6 +22,7 @@ export const Education = () => {
             <li className="bullet">
               {t("Collaborating in teams on large-scale development projects.")}
             </li>
+            <li className="bullet">Speaking in <a href="https://pohjarannik.postimees.ee/8141784/kratikonverents-johvi-gumnaasiumis">events</a> about using LLMs in learning.</li>
           </ul>
         </li>
         <li>
@@ -45,7 +46,7 @@ export const Education = () => {
               >
                 {t("article on Wise Interventions (in Estonian)")}
               </a>{" "}
-              {t("for general public.")}
+              {t("for general audience.")}
             </li>
             <li className="bullet">
               <a

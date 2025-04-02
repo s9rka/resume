@@ -23,11 +23,11 @@ const WorkExperience = () => {
           <ul className="pl-4">
             <li className="bullet">
               {t(
-                "Developing a platform for creating, managing and monitoring sports tournaments."
+                "Developing a platform for creating, managing and broadcasting sports tournaments."
               )}
             </li>
             <li className="bullet">
-              {t("Building the frontend with modern React stack.")}
+              {t("Building the frontend with a modern React stack, including Tanstack Router and Tanstack Query.")}
             </li>
             <li className="bullet">
               {t("Managing design system in Figma to ensure consistent UI.")}

@@ -37,7 +37,7 @@
     "Psychology": "Psühholoogia",
     "Behavioural Economics": "Käitumisökonoomika",
     "Developing a platform for creating, managing and monitoring sports tournaments.": "Arendame Eesti Lauatennise Liidule veebilehte ja platvormi võistluste läbi viimiseks ja jälgimiseks.",
-    "Building the frontend with modern React stack.": "Minu töö on ehitada Reactil põhinev kasutajaliides kasutades modernseid frontend tehnoloogiaid nagu Tanstack Query ja Tanstack Router.",
+    "Building the frontend with a modern React stack, including Tanstack Router and Tanstack Query.": "Minu töö on ehitada Reactil põhinev kasutajaliides kasutades modernseid frontend tehnoloogiaid nagu Tanstack Query ja Tanstack Router.",
     "Managing design system in Figma to ensure consistent UI.": "Figmas disainisüsteemi loomine ja haldamine ühtlase stiili tagamiseks.",
     "Developed a financial dashboard for CEOs to monitor cash flow and critical business metrics.": "Arendasime toote firma juhtidele ja finantsinimestele rahavoo ja muude oluliste ärinäitajate jälgimiseks.",
     "Collaborated with a team (data engineer, financial analyst) to define product requirements and optimize user experience.": "Koostöös andmeinseneri ja finantsanalüütikuga määrasime toote nõuded ja optimeerisime kasutajakogemuse.",

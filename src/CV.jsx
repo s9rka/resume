@@ -5,6 +5,8 @@ import Education from "./components/education/Education";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import watermark from "./assets/watermark.svg";
+
 
 const CV = () => {
   const { t, i18n } = useTranslation();
@@ -18,6 +20,8 @@ const CV = () => {
   
   return (
     <Layout>
+            <img src={watermark} alt="watermark" className="h-12" />
+
       <Experience />
       <Education />
     </Layout>

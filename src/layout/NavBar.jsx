@@ -10,7 +10,7 @@ const NavBar = () => {
       </div>
 
       <div className="py-1 flex flex-wrap flex-row md:items-center md:justify-center gap-2">
-        <p>pruulsoren@gmail.com</p>•
+        <p className="">pruulsoren@gmail.com</p>•
         <a href="github.com/s9rka" target="_blank">
           Github
         </a>
